@@ -21,7 +21,7 @@ function Search({search,setSearch}) {
     </div>
     </div>
     </div>
-    
+   
         
     )
 }
