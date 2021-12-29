@@ -5,7 +5,6 @@ import { useEffect } from "react";
 import { useRouter } from 'next/router';
 import Loader from '../../components/Loader';
 
-
 function Signin({providers}) {
     const {data:session}=useSession()
     const router = useRouter();
@@ -38,6 +37,7 @@ function Signin({providers}) {
                     onClick={() => signIn(provider.id)}> 
                     Sign in with {provider.name}
                     </button>
+                    <br></br>
                 </div>
             ))}
         </div>
